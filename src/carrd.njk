@@ -15,7 +15,8 @@
         <link
             href="https://fonts.googleapis.com/css2?family=Cause&family=Cherry+Bomb+One&family=JetBrains+Mono&display=swap"
             rel="stylesheet">
-        <link rel="stylesheet" href="{% getBundleFileUrl "css" %}">
+        <style>{% getBundle "css" %}</style>
+        {# <link rel="stylesheet" href="{% getBundleFileUrl "css" %}"> #}
     </head>
     <body class="font-cause">
         <main>
