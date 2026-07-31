@@ -6,6 +6,13 @@ body {
     min-height: 100dvh;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: color-mix(in oklab, var(--color-pine) 10%, transparent);
+}
+
 :root {
     font-family: monospace;
     background: var(--color-base);
@@ -29,26 +36,42 @@ body {
     --color-highlight-high: #cecacd;
 }
 
-main {
+body {
     display: flex;
     flex-direction: column;
-    min-height: inherit;
-    align-items: center;
     justify-content: center;
-    text-align: center;
 }
 
-.hero-image {
-    max-width: 100%;
+header {
+    display: flex;
+    justify-content: center;
+    height: 96px;
+    padding: 8px;
+}
+
+.logo {
+    height: 100%;
+}
+
+.logo img {
+    height: 100%;
+}
+
+main {
+    padding: 1rem;
+}
+
+a {
+    color: var(--color-rose);
+    text-decoration: underline dotted;
 }
 
 .lowercase {
     text-transform: lowercase;
 }
 
-a {
-    color: var(--color-rose);
-    text-decoration: underline dotted;
+.center {
+    text-align: center;
 }
 
 /* dark: Rosé Pine */

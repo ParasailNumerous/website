@@ -1,17 +1,14 @@
 {
-  "name": "yaoi.foundation",
+  "name": "yuri.foundation",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "packageManager": "pnpm@11.15.1",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "dev": "pnpm eleventy --serve",
+    "build": "pnpm eleventy"
   },
   "devDependencies": {
-    "@types/node": "^26.1.1",
-    "typescript": "~6.0.2",
-    "vite": "^8.1.1"
+    "@11ty/eleventy": "^3.1.6"
   }
 }

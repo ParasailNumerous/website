@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>yuri.foundation | {{ title }}</title>
+    <link rel="manifest" href="/manifest.webmanifest">
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="/css/base.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <header>
+      <a href="/" class="logo"><img src="/assets/logo.svg" alt="yuri.foundation logo" fetchpriority="high"></a>
+    </header>
+    <main>
+      {% block main %}
+        {{ content | safe }}
+      {% endblock %}
+    </main>
+  </body>
+</html>
