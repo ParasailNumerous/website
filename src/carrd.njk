@@ -1,0 +1,151 @@
+{%- css -%}
+{% include "src/css/carrd.css"%}
+{%- endcss -%}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>my carrd!</title>
+        <link rel="manifest" href="/manifest.webmanifest">
+        <link rel="icon" href="/favicon.ico" sizes="32x32"/>
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cause&family=Cherry+Bomb+One&family=JetBrains+Mono&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="{% getBundleFileUrl "css" %}">
+    </head>
+    <body class="font-cause">
+        <main>
+            <section class="header">
+                <div class="header-start">
+                    <i class="icon-dropdown-24dp"></i>
+                    <span class="font-jetbrains-mono">...miso.apk</span>
+                </div>
+                <div class="header-end">
+                    <div class="header-end-btn">
+                        <i class="icon-title-bar-minimize-16dp"></i>
+                    </div>
+                    <div class="header-end-btn">
+                        <i class="icon-title-bar-maximize-16dp"></i>
+                    </div>
+                    <div class="header-end-btn">
+                        <i class="icon-title-bar-close-16dp"></i>
+                    </div>
+                </div>
+            </section>
+            <section class="content">
+                <h1 class="font-jetbrains-mono divider-with-label">
+                    <div class="divider-with-label--divider"></div>
+                    About
+                    <div class="divider-with-label--divider"></div>
+                </h1>
+                <div class="column-clank">
+                    <section class="card card-photo" style="aspect-ratio:193/230;">
+                        <img src="/assets/carrd/MistiquePhotoCard.png" alt="Image of Mistique from the game Stella Sora, on their back">
+                        <span
+                            class="font-jetbrains-mono font-size-note no-text-transform"
+                            style="position: absolute;left: 0;top: -12px;transform: rotate(-5deg);">Mistique from Stella
+                                                    Sora</span>
+                    </section>
+                    <section class="card card-sticky-note">
+                        <h2 class="font-cherry-bomb-one font-size-heading">
+                            <span class="text-moss">Dew</span>/<span class="text-miso">Miso</span>
+                        </h2>
+                        <p>Any pronouns, prefer they/them</p>
+                        <p>Enby</p>
+                        <p>Malaysian/Chinese</p>
+                        <a href="https://en.wikipedia.org/wiki/Wikipedia:Babel" target="_blank" class="link">Babel</a>
+                        <p>English - Native</p>
+                        <p>Simplified Chinese - 2</p>
+                        <p>Cantonese - 1</p>
+                    </section>
+                    <section class="card card-sticky-note">
+                        <h2 class="font-cherry-bomb-one font-size-heading text-moss">Likes</h2>
+                        <p>Accessibility, seafood, roleplay, walking, design, compliments</p>
+                        <h2 class="font-cherry-bomb-one font-size-heading text-raspberry">Dislikes</h2>
+                        <p>Harassment, low contrast text, dust, unwanted touch</p>
+                    </section>
+                    <!-- "row" 2 -->
+                    <section class="card card-sticky-note">
+                        <h2 class="font-cherry-bomb-one font-size-heading text-grape">Comms</h2>
+                        <p class="no-text-transform">Discord, Signal, Bluesky, Matrix; DM me if you want/need them</p>
+                        <h2 class="font-cherry-bomb-one font-size-heading text-orangepeel">Writing style</h2>
+                        <p>Typically writes full sentences, and likes text roleplay. If deviating, please check in! Can get emotional sometimes
+                            ^^</p>
+                    </section>
+                    <section class="card card-photo" style="aspect-ratio:193/230;">
+                        <img
+                            src="/assets/carrd/SoukakuPhotoCard.png"
+                            alt="Image of Soukaku from the game Zenless Zone Zero, looking at a sparkler held in their hands">
+                        <span
+                            class="font-jetbrains-mono font-size-note no-text-transform"
+                            style="position: absolute;left: -0.33px;bottom: 0;transform: rotate(-6.05deg);width: 8em;">I <3 soukaku from 绝区零</span>
+                    </section>
+                    <section class="card card-sticky-note">
+                        <h2 class="font-cherry-bomb-one font-size-heading text-lime">Rotation</h2>
+                        <p>games - stella sora, ac shadows, zzz</p>
+                        <p>songs - stream or scream, turn heartbeats into tempo</p>
+                        <p>work - product management at mysterious company and wiki editing</p>
+                    </section>
+                </div>
+                <h1 class="font-jetbrains-mono divider-with-label">
+                    <div class="divider-with-label--divider"></div>
+                    Music
+                    <div class="divider-with-label--divider"></div>
+                </h1>
+                <div class="column-clank">
+                    <section class="card card-sticky-note">
+                        <h2 class="font-cherry-bomb-one font-size-heading text-twinkle">Stella Sora Records</h2>
+                        <p style="color:#3B787A">Please listen to keep the game alive through alternative revenue sources
+                        </p>
+                        <img class="card--image" src="/assets/carrd/SSRPhotoCard.png" alt="Album art">
+                        <div class="card--actions">
+                            <a href="https://open.spotify.com/artist/7LWG1Nj1ozJEtjfpF3ilCW" target="_blank" class="mushy-button">
+                                <i class="icon-spotify-16dp">Open in Spotify</i>
+                            </a>
+                            <a href="https://music.youtube.com/channel/UC2igYNf6FOF11ZIDStlaHLA" target="_blank" class="mushy-button">
+                                <i class="icon-yt-music-16dp">Open in YouTube Music</i>
+                            </a>
+                            <a href="https://music.apple.com/artist/6783043560" target="_blank" class="mushy-button">
+                                <i class="icon-apple-music-16dp">Open in Apple Music</i>
+                            </a>
+                            <a href="https://stellasora.miraheze.org/wiki/Soundtrack" target="_blank" class="mushy-button">
+                                <i class="icon-open-in-16dp"></i>More at Stella Sora Wiki</a>
+                        </div>
+                    </section>
+                    <section class="card card-sticky-note">
+                        <h2 class="font-cherry-bomb-one font-size-heading text-grape">San-Z</h2>
+                        <p style="color:#7070B2">I luv the ZZZ soundtrack no elaboration necessary
+                        </p>
+                        <img class="card--image" src="/assets/carrd/SanZPhotoCard.png" alt="Album art">
+                        <div class="card--actions">
+                            <a href="https://open.spotify.com/artist/4Ep9NXSZDTJzz6BIv24p5x" target="_blank" class="mushy-button">
+                                <i class="icon-spotify-16dp">Open in Spotify</i>
+                            </a>
+                            <a href="https://music.youtube.com/channel/UCtRlMZIFYt3BOq31t0xvq8g" target="_blank" class="mushy-button">
+                                <i class="icon-yt-music-16dp">Open in YouTube Music</i>
+                            </a>
+                            <a href="https://music.apple.com/ca/artist/1754684944" target="_blank" class="mushy-button">
+                                <i class="icon-apple-music-16dp">Open in Apple Music</i>
+                            </a>
+                        </div>
+                    </section>
+                </div>
+                <h1 class="font-jetbrains-mono divider-with-label">
+                    <div class="divider-with-label--divider"></div>
+                    Blog
+                    <div class="divider-with-label--divider"></div>
+                </h1>
+                <div class="column-clank">
+                    <section class="card card-sticky-note" style="height: auto;">
+                        <p>not sure what to put on here so it’s blank atm, but may write neat tidbits at some point ^^</p>
+                    </section>
+                    <a href="/blog" aria-label="Enter blog"><img src="/assets/carrd/EnterBlogButton.png" alt="" style="max-width: 100%; height: auto;"> </a>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
