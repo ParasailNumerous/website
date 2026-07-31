@@ -1,5 +1,5 @@
 {%- css -%}
-{% include "src/css/carrd.css"%}
+{% include "src/css/carrd.css" %}
 {%- endcss -%}
 <!DOCTYPE html>
 <html lang="en">
@@ -45,11 +45,13 @@
                 </h1>
                 <div class="column-clank">
                     <section class="card card-photo" style="aspect-ratio:193/230;">
-                        <img src="/assets/carrd/MistiquePhotoCard.png" alt="Image of Mistique from the game Stella Sora, on their back">
+                        <img
+                            src="/assets/carrd/MistiquePhotoCard.png"
+                            alt="Image of Mistique from the game Stella Sora, on their back"
+                            fetchpriority="high">
                         <span
                             class="font-jetbrains-mono font-size-note no-text-transform"
-                            style="position: absolute;left: 0;top: -12px;transform: rotate(-5deg);">Mistique from Stella
-                                                    Sora</span>
+                            style="position: absolute;left: 0;top: -12px;transform: rotate(-5deg);">Mistique from Stella Sora</span>
                     </section>
                     <section class="card card-sticky-note">
                         <h2 class="font-cherry-bomb-one font-size-heading">
@@ -80,7 +82,8 @@
                     <section class="card card-photo" style="aspect-ratio:193/230;">
                         <img
                             src="/assets/carrd/SoukakuPhotoCard.png"
-                            alt="Image of Soukaku from the game Zenless Zone Zero, looking at a sparkler held in their hands">
+                            alt="Image of Soukaku from the game Zenless Zone Zero, looking at a sparkler held in their hands"
+                            fetchpriority="high">
                         <span
                             class="font-jetbrains-mono font-size-note no-text-transform"
                             style="position: absolute;left: -0.33px;bottom: 0;transform: rotate(-6.05deg);width: 8em;">I <3 soukaku from 绝区零</span>
@@ -144,7 +147,8 @@
                     <section class="card card-sticky-note" style="height: auto;">
                         <p>not sure what to put on here so it’s blank atm, but may write neat tidbits at some point ^^</p>
                     </section>
-                    <a href="/blog" aria-label="Enter blog"><img src="/assets/carrd/EnterBlogButton.png" alt="" style="max-width: 100%; height: auto;"> </a>
+                    <a href="/blog" aria-label="Enter blog"><img src="/assets/carrd/EnterBlogButton.png" alt="" style="max-width: 100%; height: auto;">
+                    </a>
                 </div>
             </section>
         </main>
