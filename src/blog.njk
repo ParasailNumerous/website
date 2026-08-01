@@ -1,9 +1,26 @@
-<h1>Blog posts</h1>
+---
+title: Blog
+layout: layouts/base.njk
+---
 
-I haven't written anything and I'm too lazy to style this page
-
-<ul>
-{%- for post in collections.post -%}
-  <li>{{ post.data.title }}</li>
-{%- endfor -%}
-</ul>
+<main>
+  <h1>Blog posts</h1>
+  <p>Tidbits about "Something"</p>
+  <ol reversed class="postlist">
+    {%- for post in collections.posts | reverse %}
+      <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
+        <a href="{{ post.url }}" class="postlist-link">
+          {%- if post.data.title -%}
+            {{ post.data.title }}
+          {%- else -%}
+            <code>{{ post.url }}</code>
+          {%- endif -%}
+        </a>
+        <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("LLLL yyyy") }}</time>
+      </li>
+    {%- endfor %}
+  </ol>
+</main>
+<footer>
+  <a href="/feed.xml">RSS</a>
+</footer>

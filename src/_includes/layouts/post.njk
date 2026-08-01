@@ -1,0 +1,32 @@
+---
+layout: layouts/base.njk
+---
+
+{%- css -%}
+  {% include "src/css/base.css"%}
+{%- endcss -%}
+
+<nav><a href="/blog">Back to posts</a></nav>
+
+<main>
+
+	<h1>{{ title }}</h1>
+
+	<p>{{ description }}</p>
+
+	<time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+
+	{{ content | safe }}
+
+</main>
+
+{%- if collections.posts %}
+{%- set previousPost = collections.posts | getPreviousCollectionItem %}
+{%- set nextPost = collections.posts | getNextCollectionItem %}
+{%- if nextPost or previousPost %}
+<ul class="links-nextprev">
+	{%- if previousPost %}<li class="links-nextprev-prev"><a href="{{ previousPost.url }}">Previous: {{ previousPost.data.title }}</a></li>{% endif %}
+	{%- if nextPost %}<li class="links-nextprev-next"><a href="{{ nextPost.url }}">Next: {{ nextPost.data.title }}</a></li>{% endif %}
+</ul>
+{%- endif %}
+{%- endif %}

@@ -1,6 +1,6 @@
 ---
 title: Index
-layout: "centered.njk"
+layout: "layouts/centered.njk"
 ---
 
 <p class="lowercase">Yuri. Coming soon.</p>

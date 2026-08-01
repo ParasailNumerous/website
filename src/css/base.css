@@ -17,7 +17,9 @@ body {
     font-family: monospace;
     background: var(--color-base);
     color: var(--color-text);
+    color-scheme: light dark;
     font-size: 1rem;
+    line-height: 1.75;
     /* light: Rosé Pine Dawn */
     --color-base: #faf4ed;
     --color-surface: #fffaf3;
@@ -40,6 +42,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 1rem;
 }
 
 header {
@@ -63,12 +66,20 @@ header a {
 
 
 main {
-    padding: 1rem;
+    width: 100%;
+    max-width: 960px;
+    margin-inline: auto;
 }
 
 a {
     color: var(--color-rose);
     text-decoration: underline dotted;
+}
+
+code {
+    padding: 4px;
+    border-radius: 2px;
+    background-color: light-dark(#fff, #000);
 }
 
 .lowercase {
@@ -77,6 +88,14 @@ a {
 
 .center {
     text-align: center;
+}
+
+.links-nextprev {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
 }
 
 /* dark: Rosé Pine */
