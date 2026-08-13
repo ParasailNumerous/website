@@ -21,13 +21,13 @@
 
     --paperclip-sys-color-link: #7E42FF;
 
-    --paperclip-sys-color-moss: #608D73;
-    --paperclip-sys-color-miso: #A09233;
-    --paperclip-sys-color-raspberry: #AF70AA;
+    --paperclip-sys-color-moss: #557C66;
+    --paperclip-sys-color-miso: #89711A;
+    --paperclip-sys-color-raspberry: #946190;
     --paperclip-sys-color-grape: #815FAC;
-    --paperclip-sys-color-orangepeel: #C87E06;
-    --paperclip-sys-color-lime: #06A800;
-    --paperclip-sys-color-twinkle: #00A1A7;
+    --paperclip-sys-color-orangepeel: #B25C0A;
+    --paperclip-sys-color-lime: #048500;
+    --paperclip-sys-color-twinkle: #067F84;
 
     --icon-yt-music-16dp: image-set(url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAGPUExURQAAAP8OVf8QWv8SX/8UZP8Waf8Ybv8bc/8deP8JSP8LTf8eev8gf/8GQf8IRv8fff8hgv8FPv8gf/8CN/8hgv8BNP8gf/8AM/8fff8AM/8eev8deP8cdf8AM/8AM/8ZcP8AM/8Waf8AM/8AM/8TYf8VZv8QWv8SX/8ANP8DOf8FPv8HQ/8JSP8LTf8NUv8NUv8PV/8RXP8TYf8VZv8Xa/8ZcP8cdf8KS/8MUP8OVf8QWv8SX/8UZP8Waf8Ybv8bc/8deP8HQ/8JSP8LTf9ij//K2v/V4v/V4//M3f9pn/8eev8EPP8GQf8IRv+ZtP+sw/8nZv8sdP+wzP+fw/8fff8DOf8FPv9fhf+rwf8uav8TWv+wzf9qov8CN//I1f8hWf+GqP/U4P9Kgv8ueP/M3/8BNP/T3f+Fpv////+rxf8rcf/W5f8AM/+Fpf8qb//I1P8eUv+EpP/T3/9IfP9bfv+pvP8rYP8OTv+uyP9nm/+Wrf+qvf8gVv8mZP+txv+cu/9dgf/T3v/U3//K2f9jkfHBBtgAAAAvdFJOUwA2mt/6+t+aNg6lpQ4OyckOpaU2Npqa39/6+vrfmjY2paUOyckOpQ6a3/r635o29LJjzAAAAAFiS0dEaMts9CIAAAAHdElNRQfqBx8DKip3x7I6AAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDI2LTA3LTMxVDAzOjQyOjQxKzAwOjAw4nq3EwAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyNi0wNy0zMVQwMzo0Mjo0MSswMDowMJMnD68AAAAodEVYdGRhdGU6dGltZXN0YW1wADIwMjYtMDctMzFUMDM6NDI6NDIrMDA6MDD12jTtAAAA/klEQVQY02NgAAJGJmYWVjZ2DgYI4OTSNzA0MjYxNePmAfF5+cwtLK2sbWzt7B34BYACgo5Ozi6ubu4enqZmXkIMDMLePr5+/gFW1oFBwfYOISIMoqFh4RHOkVFAU6JjzLzEGMRjvePizRMSk6xtklPsHSQYJFND0xyd0jMyMrOMs03NpBgkc2LTfHxzgQJ5Ntl29tIM4jmp+QWOhUXFBoZZHiamMgyyOTklpT5l5UC3VFTa2rEzyOXkpFZV1zg519bVA50rz8CgkJMT2xDX2NTcAnSuItClSso5qaFhQOcCfaSiCvKMkkJOLNC5QB+pqUP9K6ehqaWto6sHYgMALZE7R9EH5KEAAAAASUVORK5CYII=") 1x,
             url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAllBMVEUAAAD/ADP/ADP/ADP/ADP/ADP/ADP/ADP/ADP/ADP/ADP/ADP/ADP/ADP/ADP/ADP/ADP/BDb/F0X/GUf/fZf/zNb/+/z/+vv/AzX/fJb/9ff/rb3/UXT/DT3/u8n/0Nn/L1n/tMP/Cjv/dpH/Bjj/IE3/////2+L/THD/t8X/KFP/jaT/Dz//6e3/ZIP/AjX/J1L/GEaLdxWzAAAAEXRSTlMAE2Ok0vP/Lqf6DZf+K9s48eoeiQYAAAEHSURBVHgBhZMDYgNREIbf6k+ytq1a9z9cMat6vjhjiQNJVlQN0FRFlsRPTucLdi7n0zexbpj4gmnon+WWjR/Y1iF3XPyC6+z2h9zzfe/QWH3om/8gjOIkiaMw2KIseRgg0iwvSh/wyyLPUhAG1bfkX9VNi5W2qaullo9qz4t93fXY6bt68XEWQlr6kzWLfNNosqVjkpCX/PL2430Y9yj5kqksFPoMi4/3ab66xkoR0ociVPqMykVhnm9uQZQRfahCo/7E/qYwx3f3eMePqWOaAP1KsCgQD49PABKyAa/AhfiZ5PO3JNkyPzfq5bdGsa1mh8WPm10YfuXYpeXXnj8c7vSY42XO/w21OiejUnjSMgAAAABJRU5ErkJggg==") 2x);
