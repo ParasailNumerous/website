@@ -13,10 +13,9 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link
-            href="https://fonts.googleapis.com/css2?family=Cause&family=Cherry+Bomb+One&family=JetBrains+Mono&display=swap"
-            rel="stylesheet">
-        <style>{% getBundle "css" %}</style>
-        {# <link rel="stylesheet" href="{% getBundleFileUrl "css" %}"> #}
+        href="https://fonts.googleapis.com/css2?family=Cause&family=Cherry+Bomb+One&family=JetBrains+Mono&display=swap"
+            rel="stylesheet"> {# <style>{% getBundle "css" %}</style> #}
+        <link rel="stylesheet" href="{% getBundleFileUrl "css" %}">
     </head>
     <body class="font-cause">
         <main>
@@ -57,11 +56,11 @@
                     </section>
                     <section class="card card-sticky-note">
                         <h2 class="font-cherry-bomb-one font-size-heading">
-                            <span class="text-moss">Dew</span>/<span class="text-miso">Miso</span>
+                            <span class="text-miso">Miso</span>/<span class="text-moss">Dew</span>
                         </h2>
-                        <p>Any pronouns, prefer they/them</p>
-                        <p>Enby</p>
+                        <p>they/them</p>
                         <p>Malaysian/Chinese</p>
+                        <p>Minor</p>
                         <a href="https://en.wikipedia.org/wiki/Wikipedia:Babel" target="_blank" class="link">Babel</a>
                         <p>English - Native</p>
                         <p>Simplified Chinese - 2</p>
@@ -69,17 +68,17 @@
                     </section>
                     <section class="card card-sticky-note">
                         <h2 class="font-cherry-bomb-one font-size-heading text-moss">Likes</h2>
-                        <p>Accessibility, seafood, roleplay, walking, design, compliments</p>
+                        <p>Accessibility, seafood, roleplay, UI/UX, 3D modelling/rigging</p>
                         <h2 class="font-cherry-bomb-one font-size-heading text-raspberry">Dislikes</h2>
-                        <p>Harassment, low contrast text, dust, unwanted touch</p>
+                        <p>Harassment, arguing, exploitation, screen reader unfriendly UI</p>
                     </section>
                     <!-- "row" 2 -->
                     <section class="card card-sticky-note">
                         <h2 class="font-cherry-bomb-one font-size-heading text-grape">Comms</h2>
-                        <p class="no-text-transform">Discord, Signal, Bluesky, Matrix; DM me if you want/need them</p>
+                        <p class="no-text-transform">Signal, Discord, Matrix, Bluesky</p>
+                        <p>DMs are open if you want to talk!</p>
                         <h2 class="font-cherry-bomb-one font-size-heading text-orangepeel">Writing style</h2>
-                        <p>Typically writes full sentences, and likes text roleplay. If deviating, please check in! Can get emotional sometimes
-                            ^^</p>
+                        <p>Mostly formal but casual for people I’m close with. 2nd person overuse. Text roleplay lover.</p>
                     </section>
                     <section class="card card-photo" style="aspect-ratio:193/230;">
                         <img
@@ -94,9 +93,10 @@
                     </section>
                     <section class="card card-sticky-note">
                         <h2 class="font-cherry-bomb-one font-size-heading text-lime">Rotation</h2>
-                        <p>games - stella sora, ac shadows, zzz</p>
-                        <p>songs - stream or scream, turn heartbeats into tempo</p>
-                        <p>work - product management at mysterious company and wiki editing</p>
+                        <p>Games - Stella Sora, Assassin's Creed Shadows</p>
+                        <p>Songs - Blue Archive/Stella Sora OST, Stream or Scream</p>
+                        <p>Projects - Product at Mysterious Company, wiki editing/designing</p>
+                        <p>Tech - Figma, VSCode</p>
                     </section>
                 </div>
                 <h1 class="font-jetbrains-mono divider-with-label">
@@ -105,11 +105,19 @@
                     <div class="divider-with-label--divider"></div>
                 </h1>
                 <div class="column-clank">
-                    <section class="card card-sticky-note">
-                        <h2 class="font-cherry-bomb-one font-size-heading text-twinkle">Stella Sora Records</h2>
-                        <p style="color:#3B787A">Please listen to keep the game alive through alternative revenue sources
-                        </p>
-                        <img class="card--image" src="/assets/carrd/SSRPhotoCard.png" alt="Album art">
+                    <section class="card card-sticky-note card-with-actions">
+                        <div class="card--header">
+                            <h2 class="font-cherry-bomb-one font-size-heading text-twinkle">Stella Sora Records</h2>
+                            <p class="text-twinkle">Please listen to keep the game alive through alternative revenue sources [volume 3 out for CN
+                                platforms!]
+                            </p>
+                        </div>
+                        <img
+                            class="card--image"
+                            src="/assets/carrd/SSRPhotoCard.png"
+                            alt="Album art for Stella Sora Original Soundtrack Vol. 3"
+                            eleventy:widths="252,504,756"
+                            sizes="auto">
                         <div class="card--actions">
                             <a href="https://open.spotify.com/artist/7LWG1Nj1ozJEtjfpF3ilCW" target="_blank" class="mushy-button">
                                 <i class="icon-spotify-16dp">Open in Spotify</i>
@@ -128,11 +136,37 @@
                                 <i class="icon-open-in-16dp"></i>Stella Sora Wiki</a>
                         </div>
                     </section>
-                    <section class="card card-sticky-note">
-                        <h2 class="font-cherry-bomb-one font-size-heading text-grape">San-Z</h2>
-                        <p style="color:#6D6DAF">I luv the ZZZ soundtrack no elaboration necessary
-                        </p>
-                        <img class="card--image" src="/assets/carrd/SanZPhotoCard.png" alt="Album art">
+                    <section class="card card-sticky-note card-with-actions">
+                        <div class="card--header">
+                            <h2 class="font-cherry-bomb-one font-size-heading text-miso">Blue Archive OST</h2>
+                            <p class="text-miso">Constantly on my rotation, though I stopped playing the game. started listening to it after heard
+                                it in one too many videos.</p>
+                        </div>
+                        <img
+                            class="card--image"
+                            src="/assets/carrd/BlueArchiveOstPhotoCard.png"
+                            alt="Album art"
+                            eleventy:widths="252,504,756"
+                            sizes="auto">
+                        <div class="card--actions">
+                            <a href="https://bluearchive.wiki/wiki/Music" target="_blank" class="mushy-button">
+                                <i class="icon-open-in-16dp"></i>Blue Archive Wiki</a>
+                        </div>
+                    </section>
+                </div>
+                <div class="column-clank">
+                    <section class="card card-sticky-note card-with-actions card-one-col">
+                        <div class="card--header">
+                            <h2 class="font-cherry-bomb-one font-size-heading text-grape">San-Z</h2>
+                            <p class="text-grape">I seldom play ZZZ except for events that excite me now, but I still love listening to its OST in
+                                my free time!</p>
+                        </div>
+                        <img
+                            class="card--image"
+                            src="/assets/carrd/SanZPhotoCard.png"
+                            alt="Album art"
+                            eleventy:widths="252,504,756"
+                            sizes="auto">
                         <div class="card--actions">
                             <a href="https://open.spotify.com/artist/4Ep9NXSZDTJzz6BIv24p5x" target="_blank" class="mushy-button">
                                 <i class="icon-spotify-16dp">Open in Spotify</i>
@@ -152,8 +186,40 @@
                     <div class="divider-with-label--divider"></div>
                 </h1>
                 <div class="column-clank">
-                    
+                    <div class="column-clank">
+                        <section class="card card-sticky-note">
+                            <h2 class="font-cherry-bomb-one font-size-heading">
+                                Tidbits from
+                                <span class="text-miso">Miso</span>
+                            </h2>
+                            <p>Various miscellaneous quips</p>
+                        </section>
+                        <a href="/blog" class="mushy-button">
+                            <i class="icon-horizontal-dots-16dp"></i>See more</a>
+                    </div>
+                    <div class="column-clank">
+                        {# TODO align with design #}
+                        <ol reversed class="postlist">
+                            {%- for post in collections.posts | reverse %}
+                            <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
+                                <a href="{{ post.url }}" class="link">
+                                {%- if post.data.title -%}
+                                    {{ post.data.title }}
+                                {%- else -%}
+                                    <code>{{ post.url }}</code>
+                                {%- endif -%}
+                                </a>
+                                <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("LLLL yyyy") }}</time>
+                            </li>
+                            {%- endfor %}
+                        </ol>
+                    </div>
                 </div>
+                <span class="divider-with-label">
+                    <span>Built with <a href="https://www.11ty.dev/" class="link">11ty</a></span>
+                    <div class="divider-with-label--divider"></div>
+                    <span><a href="https://rosepinetheme.com/" class="link">Rosé Pine</a> Dawn</span>
+                </span>
             </section>
         </main>
     </body>
