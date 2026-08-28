@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "packageManager": "pnpm@11.15.1",
   "scripts": {
     "dev": "pnpm eleventy --serve",
     "build": "pnpm eleventy"
@@ -13,5 +12,12 @@
     "@11ty/eleventy-img": "^7.0.0",
     "@11ty/eleventy-plugin-rss": "^3.0.0",
     "lightningcss": "^1.33.0"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.24.0",
+      "onFail": "download"
+    }
   }
 }
