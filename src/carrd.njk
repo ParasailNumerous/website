@@ -18,6 +18,16 @@
         <style>{% getBundle "css" %}</style>
     </head>
     <body class="font-cause">
+        <!-- Hacky inline style prototype, improve later -->
+        <img
+            src="/assets/carrd/BG_wog_office.png"
+            alt=""
+            aria-hidden="true"
+            eleventy:widths="320,640,1280,1920,2540"
+            sizes="auto"
+            style="position:fixed; z-index: -1; inset: 0; width: 100lvw; height: 100lvh; object-fit: cover;"
+            inert
+            fetchpriority="high">
         <main>
             <section class="header">
                 <div class="header-start">
