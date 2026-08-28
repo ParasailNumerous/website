@@ -8,10 +8,10 @@
     "build": "pnpm eleventy"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.6",
-    "@11ty/eleventy-img": "^7.0.0",
-    "@11ty/eleventy-plugin-rss": "^3.0.0",
-    "lightningcss": "^1.33.0"
+    "@11ty/eleventy": "3.1.6",
+    "@11ty/eleventy-img": "7.0.0",
+    "@11ty/eleventy-plugin-rss": "3.0.0",
+    "lightningcss": "1.33.0"
   },
   "devEngines": {
     "packageManager": {
