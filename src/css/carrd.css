@@ -31,9 +31,9 @@
 
     --icon-yt-music-16dp: image-set(url("/assets/carrd/BrandYtMusic16dp@1x.png") 1x,
             url("/assets/carrd/BrandYtMusic16dp@2x.png") 2x);
-    --icon-apple-music-16dp: image-set(url("/assets/BrandAppleMusic16dp@1x.png") 1x,
+    --icon-apple-music-16dp: image-set(url("/assets/carrd/BrandAppleMusic16dp@1x.png") 1x,
             url("/assets/carrd/BrandAppleMusic16dp@2x.png") 2x);
-    --icon-spotify-16dp: image-set(url("/assets/BrandSpotify16dp@1x.png") 1x,
+    --icon-spotify-16dp: image-set(url("/assets/carrd/BrandSpotify16dp@1x.png") 1x,
             url("/assets/carrd/BrandSpotify16dp@2x.png") 2x);
     --icon-title-bar-minimize-16dp: url("/assets/carrd/IconTitleBarMinimize16dp.svg");
     --icon-title-bar-maximize-16dp: url("/assets/carrd/IconTitleBarMaximize16dp.svg");
