@@ -1,4 +1,4 @@
-import{a as e,c as t,d as n,i as r,t as i}from"./decorate-DwdQ_zqw.js";import"./icon-y1sjzqP3.js";import{l as a}from"./index-7mZk5K6g.js";import"./icon-button-BDGqSq-k.js";import"./card-zOL3kfo1.js";import"./button-CFO6LkDK.js";import"./list-w-T6nfbA.js";import{t as o}from"./shared-BqBhntqe.js";var s=class extends e{static{this.styles=[o,n` :host{display:block} `]}render(){return t`
+import{a as e,c as t,d as n,i as r,t as i}from"./decorate-DwdQ_zqw.js";import"./icon-y1sjzqP3.js";import{l as a}from"./index-D8EIYGNW.js";import"./icon-button-BDGqSq-k.js";import"./card-zOL3kfo1.js";import"./button-CFO6LkDK.js";import"./list-CkiNw9pq.js";import{t as o}from"./shared-BqBhntqe.js";var s=class extends e{static{this.styles=[o,n` :host{display:block} `]}render(){return t`
       <m3e-app-bar><m3e-icon-button slot="leading" href="${a(`/settings`)}" aria-label="Back"><m3e-icon name="arrow_back"></m3e-icon></m3e-icon-button><span slot="title">About</span></m3e-app-bar>
       <div class="u-page-wrap">
         <m3e-card variant="filled"><div slot="content" class="u-hero">
