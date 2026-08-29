@@ -1,0 +1,1 @@
+import{a as e,c as t,i as n,t as r}from"./decorate-DwdQ_zqw.js";var i=class extends e{render(){return t`<h2>aod-page</h2>`}};i=r([n(`aod-page`)],i);export{i as C};
