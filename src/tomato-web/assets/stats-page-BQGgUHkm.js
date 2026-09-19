@@ -1,1 +1,0 @@
-import{a as e,c as t,i as n,t as r}from"./decorate-DwdQ_zqw.js";var i=class extends e{render(){return t`<h2>Stats</h2><p>Coming soon</p>`}};i=r([n(`stats-page`)],i);export{i as StatsPage};
