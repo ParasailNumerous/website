@@ -6,6 +6,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy({ "public": "/" });
   eleventyConfig.addPassthroughCopy({ "css": "/assets" });
+  eleventyConfig.addPassthroughCopy({ "node_modules/@fontsource-variable/atkinson-hyperlegible-next": "assets/fonts/atkinson-hyperlegible-next" });
   // Test deployment!!!
   eleventyConfig.addPassthroughCopy({ "src/tomato-web": "tomato-web" });
   // Inspired by https://codeberg.org/amberstarlight/website/src/commit/21ba38eac36ec72b8710aca371239a42e3163442/eleventy.config.js#L57

@@ -13,8 +13,8 @@ body {
     -webkit-tap-highlight-color: color-mix(in oklab, var(--color-pine) 10%, transparent);
 }
 
-:root {
-    font-family: monospace;
+:root {  
+    font-family: 'Atkinson Hyperlegible Next Variable', 'Atkinson Hyperlegible Next', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     background: var(--color-base);
     color: var(--color-text);
     color-scheme: light dark;
