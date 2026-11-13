@@ -27,7 +27,7 @@ export default function (eleventyConfig) {
     ]
   });
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
-    formats: ["webp", "png", "jpeg"]
+    formats: ["avif", "webp", "png", "jpeg"]
   });
   eleventyConfig.addPlugin(feedPlugin, {
     type: "atom",
